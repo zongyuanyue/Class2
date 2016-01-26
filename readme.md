@@ -5,7 +5,7 @@
 - What You'll be able to do by the end of this class
 - Class Project
 
-# What we'll be able to do by the end of class this class—
+# What we'll be able to do by the end of class this course 
 - [papatap](http://www.patatap.com/)
 - [pitch](http://therewasaguy.github.io/p5-music-viz/demos/08_echonestPitchSegment/)
 - [Camera](https://nithi-p.github.io/finalproject/)
