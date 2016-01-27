@@ -1,30 +1,12 @@
-// Flapjacks
-
-// take in a number and out put flap if it's divisble 
-// by 3, jacks if it's divisible by 5 and flapjacks if both
-
-var flapperJacks = function(aNumber) {
-  var holdsEverything = "";
-  
-  for(var i = 1; i <= aNumber; i = i + 1) {
-    var result = "";
-    
-    if (i % 3 === 0) {
-      result = result + "flap"
-    }
-    else if (i % 5 === 0) {
-      result = result + "jacks"
-    }
-    else {
-      result = i;
-    }
-    holdsEverything += result
-  }
-  console.log(holdsEverything);
+function setup () {
+  createCanvas(600,600);
 }
 
+function draw() {
+  
+}
 
-
-flapperJacks(173);
-// swear it's random.
-
+var ballStick = function(x,y, ellipseSize) {
+  line(x, y, mouseX, mouseY)
+  ellipse(x, y, ellipseSize, ellipseSize)
+}
