@@ -27,3 +27,8 @@ Walk through FizzBuzz
   - Arrays
   - Objects
   - Not defining functions in loops/some optimization
+
+# A new text editor & what P5 is actually giving us with "run"
+  - Atom
+  - Sublime
+  
