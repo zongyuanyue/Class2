@@ -4,22 +4,27 @@
 // by 3, jacks if it's divisible by 5 and flapjacks if both
 
 var flapperJacks = function(aNumber) {
+  var holdsEverything;
+  
   for(var i = 1; i <= aNumber; i = i + 1) {
-    if (i % 3 === 0 && i % 5 === 0){
-      console.log("flapjacks")
+    var result = "";
+    
+    if (i % 3 === 0) {
+      result = result + "flap"
     }
-    else if (i % 3 === 0) {
-      console.log("flap")
-    }
-    else if (i % 5 === 0) {
-      console.log("jacks")
+    if (i % 5 === 0) {
+      result = result + "jacks"
     }
     else {
-      console.log(i)
+      result = i;
     }
+    holdsEverything += result
   }
+  console.log(holdsEverything);
 }
 
-flapperJacks(1);
+console.log(holdsEverything)
 
+flapperJacks(173);
+// swear it's random.
 
