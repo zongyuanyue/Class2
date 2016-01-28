@@ -1,16 +1,22 @@
-# Agenda
+
+#Homework:
+
+
+
+# In Class:
+## Agenda
 - Questions
 - HW review
 - Publishing using `gh-pages`
 - What You'll be able to do by the end of this class
 - Class Project
 
-# What we'll be able to do by the end of class this course
+## What we'll be able to do by the end of class this course
 - [papatap](http://www.patatap.com/)
 - [pitch](http://therewasaguy.github.io/p5-music-viz/demos/08_echonestPitchSegment/)
 - [Camera](https://nithi-p.github.io/finalproject/)
 
-# Questions
+## Questions
 - vars
 - Functions
   - call vs definition
@@ -18,17 +24,16 @@
 
 - Go over really what github is now that you've used it a little.
 
-# HW review
+## HW review
 Walk through FizzBuzz
 
-# Class Project
+## Class Project
   - Introduces constructor Functions
     - BallStick
   - Arrays
   - Objects
   - Not defining functions in loops/some optimization
 
-# A new text editor & what P5 is actually giving us with "run"
+## A new text editor & what P5 is actually giving us with "run"
   - Atom
   - Sublime
-  

@@ -5,7 +5,3 @@ function setup () {
 function draw() {
 
 }
-
-var BallStick = function(x,y, ellipseSize) {
- 
-}
