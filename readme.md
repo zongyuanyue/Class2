@@ -1,5 +1,5 @@
 
-# Homework:
+# Homework Due Sunday, January 31:
 ## [Fill out this survey](https://surveyplanet.com/56a97f0e4bd6c096645444c4) (9 questions)
 …or don't, you have the option of being anonymous so I don't know who did or didn't. I do find it really helpful and it impacts what we do next week. For example this was a question and answer from last week's survey.
 
@@ -17,25 +17,17 @@ Keep in mind that you'll get to show off this work to the class.
 Resources:
 Remember you can go though the [commits from class](https://github.com/ArtG2260SpringTuesday2016/Class2/commits/master) as an example.
 
-### Make a github.io page include a link to it in your PR to this repository.
-
-P5 sketches start with an `index.html` file. If that is at the top level (root) of your repository it should be what shows up. If you've done any coding with `html` or `css` feel free to play with it but it's out of scope of this class so you will not be graded on it.
-
-  - You want to use a "project site" https://pages.github.com/
-  - help: https://help.github.com/categories/github-pages-basics/
-  - Help on just github pages https://www.youtube.com/watch?v=FiOgz3nKpgk
-  - Help on all of github. You can skip the command line stuff because we're using github desktop https://www.youtube.com/watch?v=73I5dRucCds
-
 ## In your private repository
 - Sketch an idea for a game then write a little bit about it in your readme.md.
-- In a p5 sketch:
+- Make a folder named class2 with a p5 sketch:
   - Create an object that describes you.
     - You can either use a function or an object.
   - Create another object that describes your favorite food.
     - use `var foodName = {}` where `foodName` is the name of the food.
   - Assign your favorite food to be a property of the object that describes you.
   - Print out an attribute from your object describing you using either `console.log` or p5's `text()` function.
-- Create an array and then use a lop to print out every value
+- Create an array and then use a loop to print out or modify every value
+- Write in the readme file the things you had trouble with (if any).
 
 ### Resources:
 - What is a constructor function: https://www.youtube.com/watch?v=F3GeM_KrGjI&index=23&list=PLRqwX-V7Uu6Zy51Q-x9tMWIv9cueOFTFA
@@ -44,9 +36,18 @@ P5 sketches start with an `index.html` file. If that is at the top level (root) 
 
 ## Reading
 - Introduction to object oriented programming in javascript: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Introduction_to_Object-Oriented_JavaScript
+- Objects and Arrays: http://eloquentjavascript.net/04_data.html#data
 - Higher order functions: http://eloquentjavascript.net/05_higher_order.html
-- Secret life of objects: http://eloquentjavascript.net/06_object.html
 
+### Bonus points:
+Make a github.io page include a link to it in your PR to this repository.
+
+P5 sketches start with an `index.html` file. If that is at the top level (root) of your repository it should be what shows up. If you've done any coding with `html` or `css` feel free to play with it but it's out of scope of this class so you will not be graded on it.
+
+  - You want to use a "project site" https://pages.github.com/
+  - help: https://help.github.com/categories/github-pages-basics/
+  - Help on just github pages https://www.youtube.com/watch?v=FiOgz3nKpgk
+  - Help on all of github. You can skip the command line stuff because we're using github desktop https://www.youtube.com/watch?v=73I5dRucCds
 
 ## If you're having issues with this assignment…
 Open an issue here https://github.com/ArtG2260SpringTuesday2016/Class2/issues @mention anyone you think might be able to help. You can still send me a message on slack.
