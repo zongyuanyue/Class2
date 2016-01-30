@@ -18,15 +18,18 @@ function Eyeballs(x,y) {
   //pupil movement:
   var pupilX = 150;
   var pupilY = 250;
+  var scleraX = 150;
+  var scleraY = 250;
   
   this.display = function() {
     
     //white parts of eyes 
     stroke(255);
     fill('white');
-    ellipse(150,250,100,100);
-    ellipse(350,250,100,100);
+    var leftSclera = ellipse(scleraX,scleraY,100,100);
+    var rightSclera = ellipse(scleraX + 200,scleraY,100,100);
   }
+  
   this.pupils = function() {
     
     //black parts of eyes 
@@ -38,13 +41,13 @@ function Eyeballs(x,y) {
     //how far can the pupils move?
     function dist(pupilX,pupilY,scleraX,scleraY) {
       
-      var scleraX = 150;
-      var scleraY = 250;
       
-      if(mouseX > pupilX && pupilX <= (scleraX + 25)) {
+      
+      
+      if(mouseX > pupilX && pupilX < scleraX) {
       pupilX = pupilX + 1;
       }
-      if(mouseX{
+      else{
         pupilX = pupilX - 1;
       }
       if(mouseY > pupilY) {
@@ -57,11 +60,11 @@ function Eyeballs(x,y) {
   }
 }
 
-var leftEye = new Eyeballs();
-var rightEye = new Eyeballs();
+//var leftEye = new Eyeballs();
+//var rightEye = new Eyeballs();
 
-function mouseMove() {
-  leftEye.pupils();
-  rightEye.pupils();
+//function mouseMove() {
+  //leftEye.pupils();
+  //rightEye.pupils();
   
-}
+//}
