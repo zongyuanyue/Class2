@@ -13,11 +13,10 @@ function draw() {
 
 //Constructor
 function Eyeballs(x,y) {
-
   //this.pupil movement:
   scleraX = 150;
   scleraY = 250;
-  scleraSize = 100
+  scleraSize = 100;
   pupilX = 150;
   pupilY = 250;
   pupilSize = scleraSize / 2;
@@ -38,18 +37,18 @@ function Eyeballs(x,y) {
     ellipse(pupilX,pupilY,pupilSize,pupilSize);
     ellipse(pupilX + 200,pupilY,pupilSize,pupilSize);
 
-      if(mouseX > pupilX && pupilX < scleraX + pupilSize / 2) {
-        pupilX = pupilX + 1;
-      }
-      if(mouseX < pupilX && pupilX > scleraX - pupilSize / 2) {
-        pupilX = pupilX - 1;
-      }
-      if(mouseY > pupilY && pupilY < scleraY + pupilSize / 2) {
-        pupilY = pupilY + 1;
-      }
-      if(mouseY < pupilY && pupilY > scleraY - pupilSize / 2){
-        pupilY = pupilY - 1;
-      }
+    if(mouseX > pupilX && pupilX < scleraX + pupilSize / 2) {
+      pupilX = pupilX + 1;
+    }
+    if(mouseX < pupilX && pupilX > scleraX - pupilSize / 2) {
+      pupilX = pupilX - 1;
+    }
+    if(mouseY > pupilY && pupilY < scleraY + pupilSize / 2) {
+      pupilY = pupilY + 1;
+    }
+    if(mouseY < pupilY && pupilY > scleraY - pupilSize / 2){
+      pupilY = pupilY - 1;
+    }
   }
 
 }
