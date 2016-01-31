@@ -7,6 +7,7 @@ function setup() {
 function draw() {
   background('green');
   
+  
   eyeballs.display();
   eyeballs.pupils();
 }
@@ -39,32 +40,30 @@ function Eyeballs(x,y) {
     ellipse(pupilX + 200,pupilY,50,50);
     
     //how far can the pupils move?
-    function dist(pupilX,pupilY,scleraX,scleraY) {
+    if (dist(pupilX,pupilY,scleraX,scleraY < 50)) {
       
-      ellipse(scleraX,scleraY,100,100);
-      ellipse(scleraX + 200,scleraY,100,100);
+      //ellipse(scleraX,scleraY,100,100);
+      //ellipse(scleraX + 200,scleraY,100,100);
       
       if(mouseX > pupilX && pupilX < scleraX) {
         pupilX = pupilX + 1;
       }
       else if(mouseX < pupilX && pupilX < scleraX) {
+        pupilX = pupilX - 1;
+      }
+      else{
         pupilX;
       }
       if(mouseY > pupilY && pupilY < scleraY) {
         pupilY = pupilY + 1;
       }
       else if(mouseY < pupilY && pupilY < scleraY){
+        pupilY = pupilY - 1;
+      }
+      else{
         pupilY;
       }
     }
   }
 }
 
-//var leftEye = new Eyeballs();
-//var rightEye = new Eyeballs();
-
-//function mouseMove() {
-  //leftEye.pupils();
-  //rightEye.pupils();
-  
-//}
